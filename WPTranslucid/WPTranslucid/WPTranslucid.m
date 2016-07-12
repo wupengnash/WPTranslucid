@@ -13,7 +13,6 @@
 
 @property (nonatomic,strong) CATextLayer *textLayer;
 @property (nonatomic,strong) CALayer *imageLayer;
-@property (nonatomic,strong) UIFont *textfont;
 @end
 
 
@@ -60,11 +59,10 @@
     self.imageLayer = [CALayer layer];
     
     self.imageLayer.contents = (__bridge id _Nullable)(self.bgImage.CGImage);
-    self.textfont = [UIFont fontWithName:@"Starjedi" size:self.fontSize];
     self.textLayer.string = self.text;
     self.textLayer.alignmentMode = kCAAlignmentCenter;
     self.textLayer.wrapped = true;
-    self.textLayer.font = (__bridge CFTypeRef _Nullable)(self.textfont);
+    self.textLayer.font = (__bridge CFTypeRef _Nullable)([UIFont fontWithName:@"Starjedi" size:self.fontSize]);
     self.textLayer.rasterizationScale = [UIScreen mainScreen].scale;
     self.textLayer.truncationMode = kCATruncationEnd;
     self.textLayer.contentsScale = [UIScreen mainScreen].scale;
