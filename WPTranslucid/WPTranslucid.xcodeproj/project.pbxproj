@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76D4C81C1D34B1E20068F10B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4C81B1D34B1E20068F10B /* main.m */; };
+		76D4C81F1D34B1E20068F10B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4C81E1D34B1E20068F10B /* AppDelegate.m */; };
+		76D4C8221D34B1E20068F10B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4C8211D34B1E20068F10B /* ViewController.m */; };
+		76D4C8251D34B1E20068F10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D4C8231D34B1E20068F10B /* Main.storyboard */; };
+		76D4C8271D34B1E20068F10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D4C8261D34B1E20068F10B /* Assets.xcassets */; };
+		76D4C82A1D34B1E20068F10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D4C8281D34B1E20068F10B /* LaunchScreen.storyboard */; };
+		76D4C8351D34B1E20068F10B /* WPTranslucidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4C8341D34B1E20068F10B /* WPTranslucidTests.m */; };
+		76D4C8401D34B1E20068F10B /* WPTranslucidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4C83F1D34B1E20068F10B /* WPTranslucidUITests.m */; };
+		76D4C84F1D34B1FF0068F10B /* WPTranslucid.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4C84E1D34B1FF0068F10B /* WPTranslucid.m */; };
+		76D4C8511D34BDF60068F10B /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76D4C8501D34BDF60068F10B /* Starjedi.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76D4C8311D34B1E20068F10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D4C80F1D34B1E20068F10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76D4C8161D34B1E20068F10B;
+			remoteInfo = WPTranslucid;
+		};
+		76D4C83C1D34B1E20068F10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D4C80F1D34B1E20068F10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76D4C8161D34B1E20068F10B;
+			remoteInfo = WPTranslucid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76D4C8171D34B1E20068F10B /* WPTranslucid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPTranslucid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D4C81B1D34B1E20068F10B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76D4C81D1D34B1E20068F10B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76D4C81E1D34B1E20068F10B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76D4C8201D34B1E20068F10B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76D4C8211D34B1E20068F10B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76D4C8241D34B1E20068F10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76D4C8261D34B1E20068F10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76D4C8291D34B1E20068F10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76D4C82B1D34B1E20068F10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D4C8301D34B1E20068F10B /* WPTranslucidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPTranslucidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D4C8341D34B1E20068F10B /* WPTranslucidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTranslucidTests.m; sourceTree = "<group>"; };
+		76D4C8361D34B1E20068F10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D4C83B1D34B1E20068F10B /* WPTranslucidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPTranslucidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D4C83F1D34B1E20068F10B /* WPTranslucidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPTranslucidUITests.m; sourceTree = "<group>"; };
+		76D4C8411D34B1E20068F10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D4C84D1D34B1FF0068F10B /* WPTranslucid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPTranslucid.h; sourceTree = "<group>"; };
+		76D4C84E1D34B1FF0068F10B /* WPTranslucid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPTranslucid.m; sourceTree = "<group>"; };
+		76D4C8501D34BDF60068F10B /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76D4C8141D34B1E20068F10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4C82D1D34B1E20068F10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4C8381D34B1E20068F10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76D4C80E1D34B1E20068F10B = {
+			isa = PBXGroup;
+			children = (
+				76D4C8191D34B1E20068F10B /* WPTranslucid */,
+				76D4C8331D34B1E20068F10B /* WPTranslucidTests */,
+				76D4C83E1D34B1E20068F10B /* WPTranslucidUITests */,
+				76D4C8181D34B1E20068F10B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76D4C8181D34B1E20068F10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D4C8171D34B1E20068F10B /* WPTranslucid.app */,
+				76D4C8301D34B1E20068F10B /* WPTranslucidTests.xctest */,
+				76D4C83B1D34B1E20068F10B /* WPTranslucidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D4C8191D34B1E20068F10B /* WPTranslucid */ = {
+			isa = PBXGroup;
+			children = (
+				76D4C81D1D34B1E20068F10B /* AppDelegate.h */,
+				76D4C81E1D34B1E20068F10B /* AppDelegate.m */,
+				76D4C8201D34B1E20068F10B /* ViewController.h */,
+				76D4C8211D34B1E20068F10B /* ViewController.m */,
+				76D4C8231D34B1E20068F10B /* Main.storyboard */,
+				76D4C8261D34B1E20068F10B /* Assets.xcassets */,
+				76D4C8281D34B1E20068F10B /* LaunchScreen.storyboard */,
+				76D4C82B1D34B1E20068F10B /* Info.plist */,
+				76D4C8501D34BDF60068F10B /* Starjedi.ttf */,
+				76D4C81A1D34B1E20068F10B /* Supporting Files */,
+				76D4C84D1D34B1FF0068F10B /* WPTranslucid.h */,
+				76D4C84E1D34B1FF0068F10B /* WPTranslucid.m */,
+			);
+			path = WPTranslucid;
+			sourceTree = "<group>";
+		};
+		76D4C81A1D34B1E20068F10B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76D4C81B1D34B1E20068F10B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76D4C8331D34B1E20068F10B /* WPTranslucidTests */ = {
+			isa = PBXGroup;
+			children = (
+				76D4C8341D34B1E20068F10B /* WPTranslucidTests.m */,
+				76D4C8361D34B1E20068F10B /* Info.plist */,
+			);
+			path = WPTranslucidTests;
+			sourceTree = "<group>";
+		};
+		76D4C83E1D34B1E20068F10B /* WPTranslucidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76D4C83F1D34B1E20068F10B /* WPTranslucidUITests.m */,
+				76D4C8411D34B1E20068F10B /* Info.plist */,
+			);
+			path = WPTranslucidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76D4C8161D34B1E20068F10B /* WPTranslucid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D4C8441D34B1E20068F10B /* Build configuration list for PBXNativeTarget "WPTranslucid" */;
+			buildPhases = (
+				76D4C8131D34B1E20068F10B /* Sources */,
+				76D4C8141D34B1E20068F10B /* Frameworks */,
+				76D4C8151D34B1E20068F10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPTranslucid;
+			productName = WPTranslucid;
+			productReference = 76D4C8171D34B1E20068F10B /* WPTranslucid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76D4C82F1D34B1E20068F10B /* WPTranslucidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D4C8471D34B1E20068F10B /* Build configuration list for PBXNativeTarget "WPTranslucidTests" */;
+			buildPhases = (
+				76D4C82C1D34B1E20068F10B /* Sources */,
+				76D4C82D1D34B1E20068F10B /* Frameworks */,
+				76D4C82E1D34B1E20068F10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76D4C8321D34B1E20068F10B /* PBXTargetDependency */,
+			);
+			name = WPTranslucidTests;
+			productName = WPTranslucidTests;
+			productReference = 76D4C8301D34B1E20068F10B /* WPTranslucidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76D4C83A1D34B1E20068F10B /* WPTranslucidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D4C84A1D34B1E20068F10B /* Build configuration list for PBXNativeTarget "WPTranslucidUITests" */;
+			buildPhases = (
+				76D4C8371D34B1E20068F10B /* Sources */,
+				76D4C8381D34B1E20068F10B /* Frameworks */,
+				76D4C8391D34B1E20068F10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76D4C83D1D34B1E20068F10B /* PBXTargetDependency */,
+			);
+			name = WPTranslucidUITests;
+			productName = WPTranslucidUITests;
+			productReference = 76D4C83B1D34B1E20068F10B /* WPTranslucidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76D4C80F1D34B1E20068F10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wupeng;
+				TargetAttributes = {
+					76D4C8161D34B1E20068F10B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					76D4C82F1D34B1E20068F10B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 76D4C8161D34B1E20068F10B;
+					};
+					76D4C83A1D34B1E20068F10B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 76D4C8161D34B1E20068F10B;
+					};
+				};
+			};
+			buildConfigurationList = 76D4C8121D34B1E20068F10B /* Build configuration list for PBXProject "WPTranslucid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76D4C80E1D34B1E20068F10B;
+			productRefGroup = 76D4C8181D34B1E20068F10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76D4C8161D34B1E20068F10B /* WPTranslucid */,
+				76D4C82F1D34B1E20068F10B /* WPTranslucidTests */,
+				76D4C83A1D34B1E20068F10B /* WPTranslucidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D4C8151D34B1E20068F10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D4C82A1D34B1E20068F10B /* LaunchScreen.storyboard in Resources */,
+				76D4C8271D34B1E20068F10B /* Assets.xcassets in Resources */,
+				76D4C8511D34BDF60068F10B /* Starjedi.ttf in Resources */,
+				76D4C8251D34B1E20068F10B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4C82E1D34B1E20068F10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4C8391D34B1E20068F10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76D4C8131D34B1E20068F10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D4C8221D34B1E20068F10B /* ViewController.m in Sources */,
+				76D4C84F1D34B1FF0068F10B /* WPTranslucid.m in Sources */,
+				76D4C81F1D34B1E20068F10B /* AppDelegate.m in Sources */,
+				76D4C81C1D34B1E20068F10B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4C82C1D34B1E20068F10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D4C8351D34B1E20068F10B /* WPTranslucidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4C8371D34B1E20068F10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D4C8401D34B1E20068F10B /* WPTranslucidUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76D4C8321D34B1E20068F10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76D4C8161D34B1E20068F10B /* WPTranslucid */;
+			targetProxy = 76D4C8311D34B1E20068F10B /* PBXContainerItemProxy */;
+		};
+		76D4C83D1D34B1E20068F10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76D4C8161D34B1E20068F10B /* WPTranslucid */;
+			targetProxy = 76D4C83C1D34B1E20068F10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76D4C8231D34B1E20068F10B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D4C8241D34B1E20068F10B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76D4C8281D34B1E20068F10B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D4C8291D34B1E20068F10B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76D4C8421D34B1E20068F10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76D4C8431D34B1E20068F10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76D4C8451D34B1E20068F10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPTranslucid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPTranslucid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76D4C8461D34B1E20068F10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPTranslucid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPTranslucid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76D4C8481D34B1E20068F10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPTranslucidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPTranslucidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPTranslucid.app/WPTranslucid";
+			};
+			name = Debug;
+		};
+		76D4C8491D34B1E20068F10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPTranslucidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPTranslucidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPTranslucid.app/WPTranslucid";
+			};
+			name = Release;
+		};
+		76D4C84B1D34B1E20068F10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPTranslucidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPTranslucidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPTranslucid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		76D4C84C1D34B1E20068F10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPTranslucidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPTranslucidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPTranslucid;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76D4C8121D34B1E20068F10B /* Build configuration list for PBXProject "WPTranslucid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D4C8421D34B1E20068F10B /* Debug */,
+				76D4C8431D34B1E20068F10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D4C8441D34B1E20068F10B /* Build configuration list for PBXNativeTarget "WPTranslucid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D4C8451D34B1E20068F10B /* Debug */,
+				76D4C8461D34B1E20068F10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76D4C8471D34B1E20068F10B /* Build configuration list for PBXNativeTarget "WPTranslucidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D4C8481D34B1E20068F10B /* Debug */,
+				76D4C8491D34B1E20068F10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76D4C84A1D34B1E20068F10B /* Build configuration list for PBXNativeTarget "WPTranslucidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D4C84B1D34B1E20068F10B /* Debug */,
+				76D4C84C1D34B1E20068F10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76D4C80F1D34B1E20068F10B /* Project object */;
+}
