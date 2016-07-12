@@ -66,6 +66,8 @@
     self.textLayer.wrapped = true;
     self.textLayer.font = (__bridge CFTypeRef _Nullable)(self.textfont);
     self.textLayer.rasterizationScale = [UIScreen mainScreen].scale;
+    self.textLayer.truncationMode = kCATruncationEnd;
+    self.textLayer.contentsScale = [UIScreen mainScreen].scale;
     [self.layer addSublayer:self.imageLayer];
     self.layer.mask = self.textLayer;
 }
@@ -73,7 +75,6 @@
     [self autoResizeTextLayer];
 }
 -(void)autoResizeTextLayer {
-    [self layoutIfNeeded];
     self.textLayer.frame = self.bounds;
     self.imageLayer.frame = self.bounds;
     [self animate];
